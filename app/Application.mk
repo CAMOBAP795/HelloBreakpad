@@ -28,6 +28,6 @@
 # OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 APP_STL := gnustl_static
-APP_ABI := armeabi armeabi-v7a
+# APP_ABI := armeabi armeabi-v7a x86 x86_64
 APP_PLATFORM := android-9
 #APP_CXXFLAGS := -std=c++11 -D__STDC_LIMIT_MACROS

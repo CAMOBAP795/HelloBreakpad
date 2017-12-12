@@ -36,7 +36,7 @@
 
 // TODO(rmcilroy): Remove this file once the ndk is updated for other
 // architectures - crbug.com/358831
-#if !defined(__aarch64__) && !defined(__x86_64__)
+#if !defined(__aarch64__) && !defined(__x86_64__) && !defined(__NDK_R16B__)
 
 #ifdef __cplusplus
 extern "C" {
@@ -65,6 +65,6 @@ struct link_map {
 }  // extern "C"
 #endif  // __cplusplus
 
-#endif  // !defined(__aarch64__) && !defined(__x86_64__)
+#endif  // !defined(__aarch64__) && !defined(__x86_64__) && !defined(__NDK_R16B__)
 
 #endif /* GOOGLE_BREAKPAD_ANDROID_INCLUDE_LINK_H */
