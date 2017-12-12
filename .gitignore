@@ -1,0 +1,13 @@
+# android
+.gradle
+build
+
+# ndk
+.externalNativeBuild
+
+# ide
+.idea
+*.iml
+
+# os
+.DS_Store
